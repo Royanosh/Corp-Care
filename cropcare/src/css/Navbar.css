@@ -1,0 +1,119 @@
+.userName {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 91.5%;
+  font-weight: 800;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  width: 183px;
+  height: 31px;
+  flex-shrink: 0;
+}
+.helloIcon {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.user {
+  position: absolute;
+  top: 11.5px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+}
+
+.searchIcon {
+  position: absolute;
+  top: 17px;
+  left: 17px;
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+.searchInput {
+  border: 0;
+  font-weight: 800;
+  font-family: Urbanist;
+  font-size: 14px;
+  background-color: transparent;
+  position: absolute;
+  top: 18px;
+  left: 45px;
+  line-height: 91.5%;
+  color: #767676;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 92px;
+  height: 19px;
+  outline: 0;
+  min-width: 280;
+}
+.searchDiv {
+  position: absolute;
+  top: 0;
+  left: 333px;
+  width: 339px;
+  border-radius: 15px;
+  background-color: #f5f5f5;
+  height: 54px;
+}
+.userSearch {
+  position: relative;
+  width: 672px;
+  height: 54px;
+  flex-shrink: 0;
+}
+.userIcon,
+.randomIcon,
+.mailIcon {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.mailIcon {
+  background-image: url(../../public/images/mail.png);
+}
+.randomIcon {
+  background-image: url(../../public/images/cart.png);
+}
+.userIcon {
+  background-image: url(../../public/images/user.png);
+}
+.navbar,
+.accountSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.accountSection {
+  width: 148px;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+.navbar {
+  position: absolute;
+  top: 57px;
+  left: 292px;
+  justify-content: center;
+  gap: 232px;
+  text-align: left;
+  font-size: 36px;
+  color: #000;
+  font-family: Urbanist;
+}
