@@ -1,0 +1,107 @@
+.agencyText {
+  position: absolute;
+  top: 20px;
+  left: 25px;
+  line-height: 91.5%;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 148px;
+  height: 33px;
+}
+.publishedText {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.date {
+  margin: 0;
+}
+.DateText {
+  line-break: anywhere;
+  width: 100%;
+}
+.DateSection {
+  position: absolute;
+  top: 147px;
+  left: 25px;
+  line-height: 141.5%;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  width: 148px;
+  height: 33px;
+}
+
+.reminderText {
+  position: absolute;
+  top: 7px;
+  left: 30px;
+  font-size: 12px;
+  line-height: 141.5%;
+  font-weight: 800;
+  font-family: Urbanist;
+  color: #000;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 104px;
+  height: 26px;
+}
+.reminderButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 199px;
+  left: 24px;
+  width: 164px;
+  height: 39px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.RemenderSection,
+.agencyImg {
+  position: absolute;
+  border-radius: 15px;
+}
+.agencyImg {
+  top: 59px;
+  left: 62px;
+  width: 74px;
+  height: 74px;
+  object-fit: cover;
+}
+.RemenderSection {
+  top: 50px;
+  left: 0;
+  background-color: #0038ff;
+  width: 209px;
+  height: 269px;
+  overflow: hidden;
+}
+.remenderText {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 91.5%;
+  font-weight: 800;
+  color: #000;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 118px;
+  height: 30px;
+}
+.Remender {
+  position: relative;
+  width: 209px;
+  height: 319px;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  font-family: Urbanist;
+}

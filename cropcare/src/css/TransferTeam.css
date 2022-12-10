@@ -1,0 +1,136 @@
+.Amount {
+  position: relative;
+  line-height: 91.5%;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  width: 123px;
+  height: 43px;
+  flex-shrink: 0;
+  color: #000;
+}
+
+.transferButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #000aff;
+  border-radius: 10px;
+  position: relative;
+  width: 113px;
+  height: 39px;
+  flex-shrink: 0;
+  font-size: 13px;
+  text-align: center;
+  line-height: 91.5%;
+  font-weight: 800;
+  font-family: Urbanist;
+  color: #fff;
+}
+
+.AmountTransfer {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 43px;
+  width: 245px;
+  top: 71px;
+  left: 22px;
+}
+
+.teamIcon1,
+.teamIcon2 {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.teamIcon2 {
+  margin-left: -6px;
+}
+.teamIcons {
+  position: absolute;
+  top: 180px;
+  left: 22px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.line2 {
+  position: absolute;
+  top: 156.5px;
+  left: 21.5px;
+  border-top: 1px solid #e6e6e6;
+  box-sizing: border-box;
+  width: 245px;
+  height: 1px;
+}
+.groupIcon {
+  position: relative;
+  width: 13px;
+  height: 13px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.transferToYourTeamText {
+  position: relative;
+  line-height: 91.5%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 226px;
+  height: 22px;
+  flex-shrink: 0;
+}
+.transferTeam {
+  position: absolute;
+  top: 26px;
+  left: 23px;
+  width: 242px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px;
+  font-size: 10px;
+  color: #a5a5a5;
+}
+.AmountDiv {
+  position: absolute;
+  top: 50px;
+  left: 2px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 50px rgba(0, 0, 0, 0.06);
+  width: 289px;
+  height: 251px;
+  overflow: hidden;
+}
+.recentTransactionText {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 14px;
+  line-height: 91.5%;
+  font-weight: 800;
+  color: #000;
+  display: flex;
+  align-items: center;
+  width: 141px;
+  height: 30px;
+}
+.transactionTeam {
+  position: absolute;
+  top: 622px;
+  left: 1063px;
+  width: 291px;
+  height: 301px;
+  text-align: left;
+  font-size: 40px;
+  color: #acacac;
+  font-family: Urbanist;
+}
